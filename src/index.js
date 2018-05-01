@@ -10,8 +10,6 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v10" // mapbox has lots of different map styles available.
 })
 
-const testMarker = newMarker("activity", [-74.009, 40.705]).addTo(map)
-// new mapboxgl.Marker(markerEle).setLngLat([-74.009, 40.705]).addTo(map)
+newMarker("activity", [-74.009, 40.705]).addTo(map)
 
 console.log('this is  index.js!')
-console.log(testMarker)
